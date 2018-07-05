@@ -1,0 +1,15 @@
+<h1>WORD COUNT</h1>
+<!-- 接收并显示 .py文件中通过字典传递过来的信息 -->
+{{Bison}}
+<br/>
+<br/>
+
+<a href="{% url 'about' %}">About</a>
+<br/>
+<br/>
+
+<form action="{%  url 'count1' %}">
+  <textarea cols="40" rows="5" name="fulltext"></textarea>
+  <br/>
+  <input type="submit" value="Count!"/>
+</form>
